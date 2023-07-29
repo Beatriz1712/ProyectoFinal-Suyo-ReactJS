@@ -6,8 +6,9 @@
         "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":9000,
         "category": "productosA",
-        "description":"Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor."
-    
+        "description":"Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor.",
+        "stock": 20
+
     },
 
  
@@ -17,7 +18,9 @@
         "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":2000,
         "category":"productosB",
-        "description":"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu."
+        "description":"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu.",
+        "stock": 20
+
     },
 
     {
@@ -26,7 +29,8 @@
         "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":2900,
         "category":"productosC",
-        "description":"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis."
+        "description":"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis.",
+        "stock": 20
     },
 
     {
@@ -35,7 +39,9 @@
         "image":"http://dummyimage.com/250x250.png/ff4444/ffffff",
         "precio":2200,
         "category":"productosC",
-        "description":"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet."
+        "description":"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet.",   
+        "stock": 20
+
     },
 
     {
@@ -44,7 +50,9 @@
         "image":"http://dummyimage.com/250x250.png/dddddd/000000",
         "precio":5400,
         "category":"productosC",
-        "description":"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue."
+        "description":"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",
+        "stock": 20
+
     },
 
     {
@@ -53,7 +61,9 @@
         "image":"http://dummyimage.com/250x250.png/ff4444/ffffff",
         "precio":6700,
         "category":"productosB",
-        "description":"Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi."
+        "description":"Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+        "stock": 20
+
     },
 
     {
@@ -62,7 +72,9 @@
         "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":1800,
         "category":"productosB",
-        "description":"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttito."
+        "description":"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttito.",
+        "stock": 20
+
     },
 
     {
@@ -71,7 +83,9 @@
         "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":1200,
         "category": "productosB",
-        "description":"Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem."
+        "description":"Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+        "stock": 20
+
     },
 
     {
@@ -80,7 +94,9 @@
         "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":6300,
         "category":"productosA",
-        "description":"Aenean fermentum. Donec ut mauris eget massa tempor."
+        "description":"Aenean fermentum. Donec ut mauris eget massa tempor.",
+        "stock": 20
+
     },
 
     {
@@ -89,7 +105,9 @@
         "image":"http://dummyimage.com/250x250.png/cc0000/ffffff",
         "precio":3600,
         "category":"productosA",
-        "description":"Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris."
+        "description":"Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+        "stock": 20
+    
      }
 
 ]

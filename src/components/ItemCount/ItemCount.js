@@ -1,19 +1,19 @@
 // eslint-disable-next-line
 import React, { useState } from 'react';
 
-const ItemCount  = ({cantidad, handlerRestar,handlerSumar ,handleAgregar,stock})=> {
+const ItemCount  = ({cantidad, handlerRestar, handlerSumar,handleAgregar })=> {
   
-
+  
    
   return (
-    <div>
+    <div className='item-count-container'>
         <div className='item-count'>
           <button className="Button" onClick={handlerRestar}> - </button>
-          <h4 className='Number'>{cantidad}</h4>
+          <p className='Number'>{cantidad}</p>
           <button className="Button" onClick={handlerSumar}> + </button>
         </div>
         <div>
-            <button className='agregar-al-carrito' onClick={handleAgregar} disable={!stock}>
+            <button className='agregar-al-carrito' onClick={handleAgregar} >
              Agregar al carrito
             </button>
         </div>
