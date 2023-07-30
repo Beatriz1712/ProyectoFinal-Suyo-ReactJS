@@ -23,18 +23,3 @@ const ItemCount  = ({cantidad, handlerRestar, handlerSumar,handleAgregar })=> {
 }
 
 export default ItemCount
-/*
-const [quantity,setQuantity]=useState (initial) 
-
-const increment =()=> {
- if(quantity<stock){
-   setQuantity(quantity + 1)
- }
-}
-
-const decrement = () => {
- if(quantity >1) {
-   setQuantity(quantity - 1)
- }
-}
-*/

@@ -17,6 +17,7 @@ const NavBar = () => {
                     <Link className="enlaces" to="/category/productosA">Productos A</Link>
                     <Link className="enlaces" to="/category/productosB">Productos B</Link>
                     <Link className="enlaces" to="/category/productosC">Productos C</Link>
+                    
 
                 </Navbar.Collapse>
                 <CartWidget />
