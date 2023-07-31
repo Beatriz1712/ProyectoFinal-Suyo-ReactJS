@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
     return (
-        // CAMBIE LA BARRA DE NAVEGACION 👇 YA QUE LA IMPLEMENTACIÓN ANTERIOR DABA ERROR POR LOS LINKEOS.
+        
         <div className='container-fluid'>
             <Navbar expand="lg" bg="ligth" className="navbar">
                 <Navbar.Brand to="/">BettyStore💎</Navbar.Brand>

@@ -11,20 +11,20 @@ const ItemListContainer = () => {
   const { category } = useParams()
 
   useEffect(() => {
-    
     const productosRef = collection(db, "productos");
 
-    getDocs(productosRef)
-    .then((resp) => {
-      console.log(resp.docs[0].id);
-      console.log(resp.docs[0].data());
+            getDocs(productosRef)
+            .then((resp) => {
+              console.log(resp.docs[0].id);
+              console.log(resp.docs[0].data());
 
-      console.log(
-        resp.docs.map((dov) => {
-          return { ...doc.data(), id: doc.id}
-        })
-      )
-    })
+              console.log(
+                resp.docs.map((dov) => {
+                  return { ...doc.data(), id: doc.id}
+                })
+              )
+            })
+   
 
   }, [category])
 
@@ -39,22 +39,41 @@ const ItemListContainer = () => {
 };
 export default ItemListContainer;
 
-/*
-category ?
-      pedirProductos()
-        .then((resp) => {
-          setProductos(resp.filter(prod => prod.category === category));
-        })
-        .catch(error => {
-          console.error(error);
-        })
-      
-      :
-      pedirProductos()
-        .then((resp) => {
-          setProductos(resp);
-        })
-        .catch(error => {
-          console.error(error);
-        })
-        */
+      /*
+        ANTES DE FIREBASE
+        category ?
+            pedirProductos()
+              .then((resp) => {
+                setProductos(resp.filter(prod => prod.category === category));
+              })
+              .catch(error => {
+                console.error(error);
+              })
+            
+            :
+            pedirProductos()
+              .then((resp) => {
+                setProductos(resp);
+              })
+              .catch(error => {
+                console.error(error);
+              })
+      */
+
+
+        /*
+        DESPUES DE FIRABASE
+          const productosRef = collection(db, "productos");
+
+            getDocs(productosRef)
+            .then((resp) => {
+              console.log(resp.docs[0].id);
+              console.log(resp.docs[0].data());
+
+              console.log(
+                resp.docs.map((dov) => {
+                  return { ...doc.data(), id: doc.id}
+                })
+              )
+            })
+       */
